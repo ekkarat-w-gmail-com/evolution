@@ -1,10 +1,10 @@
 # CheckTarget.cmake
 #
 # Defines a custom target 'check', which gathers test programs like 'make check'
-# This is taken from https://cmake.org/Wiki/CMakeEmulateMakeCheck
-#
-# What you do is to call command:
-# add_check_test(_name)
+# This is taken from https://cmake.org/ekkarat.w@gmail.com/Wiki/CMakeEmulateMakeCheck
+
+# What you do is to call command: CheckTarget.cmake
+# add_check_test(ekkarat304)
 #   where _name is the name of the test, as defined by add_executable().
 #   Note it is a good idea to use EXCLUDE_FROM_ALL within the add_executable().
 
